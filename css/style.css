@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.nav.bar{
+    display:flex;
+
+}
+.nav-list{
+    background-color:black;
+    display: flex;
+    align-items: center;
+
+}
+
+    .nav-list li{
+list-style: none;
+padding: 26px 30px;
+    }
+
+        .nav-list li a{
+            text-decoration: none;
+            color: beige;
+
+        }
+        .nav-list li a:hover{
+            text-decoration: none;
+            color: aqua;
+        }
+        .background{
+            background: rgba(0,0,0,0.7)url('https://cdn.inc42.com/wp-content/uploads/2023/10/Festive-Season-ftr.jpg');
+        background-size: cover;
+        background-blend-mode:darken;
+        }
