@@ -59,18 +59,22 @@ padding: 26px 30px;
         .nav-list li a{
             text-decoration: none;
             color:black;
+            display:flex;
             
 
         }
         .nav-list li a:hover{
             text-decoration: none;
             color: rgb(73, 156, 156);
+            display:flex;
+
         
         }
         .background{
             background: rgba(0,0,0,0.7)url('https://th.bing.com/th/id/OIP.cE9zrUhXOp-Bl5c5XabJmwAAAA?pid=ImgDet&rs=1');
         background-size: cover;
         background-blend-mode:darken;
+        display:flex;
         }
         .box-main{
             display: flex;
@@ -96,7 +100,9 @@ padding: 26px 30px;
                      
         }
         .firstsection{
-            height: 100vh;
+            height: 150vh;
+            display:flex;
+
         }
     .firsthalf img{
         width: 100pc;
@@ -106,10 +112,12 @@ padding: 26px 30px;
         margin: block;
     }
     .text-small{
-        font-size: 50px;       
+        font-size: 50px; 
+        display:flex;      
     }
     .text-big{
         font-size: 10pc;
+        display:flex;
     }
     .btn{
         border: solid black;
@@ -130,4 +138,22 @@ padding: 26px 30px;
       }
       .search{
         border-radius: 150px;
+        margin: 0 auto;
+        padding: 0%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight:'Times New Roman', Times, serif;
+        min-weight:100%;
+      }
+      .category{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: x;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
       }
