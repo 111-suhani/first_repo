@@ -79,17 +79,15 @@ padding: 26px 30px;
     .text-big{
         font-size: 10pc;
     }
-    .div2{
-        text-align: center;
-    }
     .btn{
-        border: none;
-        color:black;
-        padding: 15px 32px;
+        border: solid black;
+        color:blue;
+        padding: 9px 50px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
+        font-size: 100px;
+        margin: 9px 2px;
         cursor: pointer;
+        text-align: center;
       }
