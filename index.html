@@ -17,6 +17,9 @@
             <li><A href="#ABOUT US">ABOUT US</a></li>
             <li><A href="#CONTACT">CONTACT</a></li>
         </ul>
+
+  
+    <br>
         
     </nav>
     <div class="icons">
@@ -69,5 +72,40 @@
                 </section>
         </body>
         </html>
-
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Search Bar</title>
+        </head>
+        <body>
+            <center><br><br><br>
+                <label for="category"><b><h3>Select a category:</h3></b></label>
+            <select id="category">
+                <option value="fashion">Fashion</option>
+                <option value="homeware">Homeware</option>
+                <option value="electronics">Electronics</option>
+                <option value="furniture">Furniture</option>
+                <option value="decors">Decors</option>
+                </select>
+                <br><br><br><br>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="searchFunction()">Search</button>
+            <p id="searchResults"></p>
+        
+            <script>
+                function searchFunction() {
+                    var searchInput = document.getElementById("searchInput").value;
+                    document.getElementById("searchResults").textContent = "You searched for: " + searchInput;
+                }
+            </script>
+            <img src="buy.gif" alt="desktop" height="250" width="300">
+           <br><br>
+               <p><b><h2>Make</h2></b>
+                    <br>
+                    <h1><b><font color="green">Work,Experience,Lifestyle</font></b><h1></h1>
+                    <br>
+               <h2><b>Awesome!</b></h2></p>
+            </center>
+        </body>
+        </html>
     
