@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title> price comparison website</title>
 </head>
 <body>
     <nav class="navbar background">
         <ul class="nav-list">
+            <a href="#" class="logo"><i class="fa-duotone fa-scale-unbalanced-flip fa-beat" style="--fa-secondary-color: #381f51;"></i>best price</a>
             <li><A href="#home">HOME</a></li>
             <li><A href="#SAMPLE">SAMPLE</a></li>
             <li><A href="#ABOUT US">ABOUT US</a></li>
@@ -16,6 +19,12 @@
         </ul>
         
     </nav>
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div> 
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="user-btn"></div>
+    </div>
     <section class="background firstsection">
         <div class="box-main">
             <div class="firsthalf">
@@ -25,11 +34,39 @@
                <font color="white"><b> <p class="text-big">compare price of product which you are wishing for!!</p><b></font>
               <font color="aqua" > <p class="text-small">Price comparsion is a method of surveying other brands that sell the same product in orderto compare prices.This approach has been praticed quite a lot by not just buyers who are on a budget,ut a lot of companies as well.It is a great way for retailers to conduct their market research which will help them learn more about their compititors and understand prospective buyers</p></font>
                <center><button class="btn">hurry up</button></center>
-               </div>
-            </section>
-
-
-
+               <div style="background-color: beige; width: 100%; height: 650px;"> 
+              <font color="brown"> just go and purchase the best quality and with best price</font >
+                    </div>
+                    <div class="search">
+                    <center><br><br><br>
+                        <label for="category"><b><h3>Select a category:</h3></b></label>
+                    <select id="category">
+                        <option value="fashion">Fashion</option>
+                        <option value="homeware">Homeware</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="furniture">Furniture</option>
+                        <option value="decors">Decors</option>
+                        </select>
+                        <br><br><br><br>
+                    <input type="text" id="searchInput" placeholder="Search...">
+                    <button onclick="searchFunction()">Search</button>
+                    <p id="searchResults"></p>
+        
+                    <script>
+                        function searchFunction() {
+                            var searchInput = document.getElementById("searchInput").value;
+                            document.getElementById("searchResults").textContent = "You searched for: " + searchInput;
+                        }
+                    </script>
+                    <img src="buy.gif" alt="desktop" height="250" width="300">
+                   <br><br></div>
+                       <p><b><h2>Make</h2></b>
+                            <br>
+                            <h1><b><font color="green">Work,Experience,Lifestyle</font></b><h1></h1>
+                            <br>
+                       <h2><b>Awesome!</b></h2></p>
+                    </center>
+                </section>
         </body>
         </html>
 
